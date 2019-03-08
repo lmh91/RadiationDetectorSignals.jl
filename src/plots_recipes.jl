@@ -19,7 +19,7 @@ end
     edep_unit = unit(eltype(edep_flat))
     edep_unitless = Array(ustrip(edep_flat))
 
-    layout := (2,2)
+    layout --> (2, 2)
 
     pos_flat = flatview(collect(flatview(events.pos)))
     length_unit = unit(eltype(pos_flat))
